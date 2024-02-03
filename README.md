@@ -1,10 +1,18 @@
 # Payment-Service Test
 
-Welcome to the Payment-Service test project! This project is built using NestJS and is intended for submitting Ksher's test
+Welcome to the Payment-Service test project! This project is built using NestJS and is intended for submitting Ksher's test.
+
+`Please note` that I assume that all properties in the request body are required. So, If you try missing some of them, you will get an error exception.
+
+## Live testing
+
+You can experience the live functionality by testing it through the following URL:
+
+[https://evening-shore-16573-9ce8b6769f53.herokuapp.com/gateway_pay](https://evening-shore-16573-9ce8b6769f53.herokuapp.com/gateway_pay)
 
 ## Test the API via URL Requests
 
-To interact with this API via URL requests, you can use the following examples:
+I also create mock APIs for this. To interact with this API via URL requests, you can use the following examples:
 
 ### Successfully Make a Payment
 
@@ -92,8 +100,6 @@ POST http://localhost:3000/gateway_pay
 }
 ```
 
-Please `note` that I assume that all properties in the request body are required. So, If you try missing some of them, you will get an error exception.
-
 ## Explore API Documentation
 
 You can explore the API's documentation using the following URL:
@@ -111,11 +117,7 @@ You can run the tests to ensure the functionality of the Payment-Service.
 To run the unit tests and view the coverage report, use the following command:
 
 ```shell
+
 yarn  test:cov
+
 ```
-
-## Alternative way of testing
-
-Alternatively, you can experience the live functionality by testing it through the following URL:
-
-[https://evening-shore-16573-9ce8b6769f53.herokuapp.com/gateway_pay](https://evening-shore-16573-9ce8b6769f53.herokuapp.com/gateway_pay)
