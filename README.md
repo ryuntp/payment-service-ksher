@@ -4,6 +4,14 @@ Welcome to the Payment-Service test project! This project is built using NestJS 
 
 `Please note` that I assume that all properties in the request body are required. So, If you try missing some of them, you will get an error exception.
 
+## Explore API Documentation
+
+You can explore the API's documentation using the following URL:
+
+https://evening-shore-16573-9ce8b6769f53.herokuapp.com/payment-service/swagger
+
+This API documentation provides detailed information about the available endpoint, request parameters, and response structure.
+
 ## Live testing
 
 You can experience the live functionality by testing it through the following URL:
@@ -12,7 +20,7 @@ You can experience the live functionality by testing it through the following UR
 
 ## Test the API via URL Requests
 
-I also create mock APIs for this. To interact with this API via URL requests, you can use the following examples:
+I also create mock API for this. To interact with this API via URL requests, you can use the following examples:
 
 ### Successfully Make a Payment
 
@@ -99,14 +107,6 @@ POST http://localhost:3000/gateway_pay
   "product_name": "12345"
 }
 ```
-
-## Explore API Documentation
-
-You can explore the API's documentation using the following URL:
-
-http://localhost:3000/payment-service/swagger/
-
-This API documentation provides detailed information about the available endpoint, request parameter, and response structures.
 
 ## Run Unit Tests
 
